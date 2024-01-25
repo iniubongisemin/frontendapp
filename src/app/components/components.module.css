@@ -1,0 +1,172 @@
+.bannerOne{
+    background-image: url(/images/seafood.jpg);
+    /* background-color: rgb(red, green, blue); */
+    /* background-blend-mode: darken; */
+    background-size: cover;
+    height: 550px;
+    margin-top: 0px;
+}
+
+@media (min-width: 640px) {
+    .bannerOne{
+        background-image: url(/images/seafood.jpg);
+        /* background-color: rgb(red, green, blue); */
+        /* background-blend-mode: darken; */
+        background-size: cover;
+        height: 550px;
+        margin-top: 0px;
+    }
+
+    .bannerTwo{
+        background-image: url(/images/seafood_shop.jpg);
+        /* background-color: rgb(red, green, blue); */
+        /* background-blend-mode: darken; */
+        /* background: right; */
+        background-size: cover;
+        height: 550px;
+    }
+
+}
+
+.bannerTwo{
+    background-image: url(/images/seafood_shop.jpg);
+    /* background-color: rgb(red, green, blue); */
+    /* background-blend-mode: darken; */
+    /* background: right; */
+    background-size: cover;
+    height: 500px;
+}
+
+.aboutBan{
+    background-image: url(/images/seafood_shop.jpeg);
+    background-size: cover;
+    height: 550px;
+}
+
+.contactBanner{
+    background-image: url(/images/frontdeskBanner.jpeg);
+    background-size: 100%;
+    background-color: rgb(15 23 42);
+    background-repeat: no-repeat;
+    /* background-position: calc(); */
+    height: 550px;
+    /* top: 50%; */
+    position: relative;
+    margin-bottom: 80px;
+    background-blend-mode: overlay;
+}
+
+.help{
+    background-image: url(/images/seafood_shop.jpeg);
+    background-size: cover;
+    height: 600px;
+}
+
+.support h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.support h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.support p {
+    text-transform: capitalize;
+    font-size: .8em;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.benefits h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.benefits h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.benefits p {
+    text-transform: capitalize;
+    font-size: .8em;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.choose h2 {    
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.choose p {    
+    font-size: .8em;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.para {
+    font-size: small;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.product {
+    font-size: xxx-large;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.shop_banner {
+    border-radius: 10px;
+    background-color: hsl(26, 10%, 14%);
+    /* min-height: 100vh; */
+    max-width: 1000px;
+    margin-top: 120px;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: 170px;
+    height: 550px;
+    text-align: left;
+}
+
+.shop_banner h1 p {
+    margin-left: 10px;
+}
+
+.details {
+    width: 50%;
+    padding: 2rem;
+}
+
+.details h1 {
+    padding-right: 2rem;
+    margin-bottom: 1.75rem;
+}
+
+.details p{
+    font-size: 14px;
+    margin-bottom: 1.75rem;
+}
+
+.formStyle {
+    margin: auto;
+}
+
+.formStyle p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.formStyle input{
+    margin-bottom: 10px;
+    width: 700px;
+}

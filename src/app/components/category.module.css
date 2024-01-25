@@ -1,0 +1,39 @@
+/* Styling for a category section */
+.cat {
+    padding-top: 30px;
+  }
+  
+  /* Styling for the unordered list within the category section */
+  .cat ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: relative;
+    left: 160px;
+    margin: 0;
+    padding: 0;
+    /* padding-right: 50px; */
+    /* padding-left: 50px; */
+  }
+  
+  /* Styling for anchor links within the category section */
+  .cat a {
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #000;
+    width: 200px;
+    text-align: center;
+  }
+  
+  /* Hover state styling for anchor links */
+  .cat a:hover {
+    background-color: #3498db;
+    color: #131024;
+    /* border: hidden; */
+  }
+  
+  /* Focus state styling for anchor links */
+  .cat a:focus {
+    background-color: #3498db;
+    color: #fff;
+  }

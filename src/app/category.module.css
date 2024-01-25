@@ -1,0 +1,15 @@
+/* Styles for a list within an element with class 'cat' */
+.cat ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* Styles for links within the 'cat' class */
+.cat a {
+    border-radius: 15px;
+    border: 5px solid rgb(52, green, blue);
+    padding: 10px 40px;
+}
+
+/* These CSS styles define the appearance for a list (ul) within an element with the class 'cat' and links (a) within the same class. The list is set to display as a column with a gap between rows, while the links have styling for border-radius, border, and padding. Note that the rgb(52, green, blue) placeholder should be replaced with specific values or variables for the actual color. */
